@@ -1,0 +1,26 @@
+.table--subversions{
+    width: 100%;
+    max-width: 400px;
+}
+
+.table--subversions td{
+    padding: 0 10px;
+    border:1px solid black;
+}
+
+.table--subversions, .table--subversions td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.text-latest{
+    color:green;
+}
+
+.text-outdated{
+    color:yellow;
+}
+
+.text-insecure{
+    color:red;
+}
